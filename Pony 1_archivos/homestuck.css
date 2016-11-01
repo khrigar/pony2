@@ -1,0 +1,149 @@
+﻿article.adventurepage { 
+	margin-top: 7px;
+}
+
+/* Enlaces backlinks */
+
+a[rel="first"] {
+  font-size: 0em;
+}
+
+a[rel="first"]:after {
+  content: 'Volver al principio';
+  font-size: 10px;
+}
+
+a[rel="prev"] {
+  font-size: 0em;
+}
+
+a[rel="prev"]:after {
+  content: 'Atrás';
+  font-size: 10px;
+}
+
+a#savegame {
+  font-size: 0em;
+}
+
+a#savegame:after {
+  content: 'Guardar partida';
+  font-size: 10px;
+}
+
+a#loadgame {
+  font-size: 0em;
+}
+
+a#loadgame:after {
+  content: 'Cargar partida';
+  font-size: 10px;
+}
+
+#pagecommand {
+    font-size: xx-large!important;
+    padding-top:2px;
+    margin-top:8px;
+    margin-bottom: 6px;
+
+}
+
+body{
+    background-color: #535353;
+}
+
+div#main {
+    background-color: #c6c6c6;
+}
+
+article.adventurepage {
+    background-color: #eeeeee;
+}
+
+/* Para poner el colmillo de caramelo de MSPA */
+
+.heart img {
+	display: none;
+}
+
+.heart {
+	background: url(http://cdn.mspaintadventures.com/images/candycorn.gif) bottom center no-repeat; padding-top:30px; display: inline-block; padding: 5px;
+	
+}
+
+/* Página de sugerencias*/
+
+#suggestiontext {
+    visibility: hidden;
+}
+
+#suggestiontext:after {
+    content: "¿Te has perdido? ¡En el mapa se incluye una gran variedad de marcapáginas para cada acto!";
+  visibility: visible;
+  display: block;
+  margin-top: -12px;
+}
+
+#container2 {
+    background-color: #c6c6c6;
+}
+
+
+#suggestions h1 a img {
+	display: block;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: url(https://dl.dropboxusercontent.com/s/7o7n46o99kz6ngj/MAPA.png) no-repeat;
+  padding-left: 18000px;
+	margin-left: 122px;
+}
+
+/* Barra de navegación */
+
+#main header nav {
+    background-color: #5a5a5a;
+}
+
+header {
+	margin-left: -5px;
+    margin-right: -5px;
+}
+
+/* SBAHJ */
+
+body#p4079 {background: #0707EC;}
+body#p4079 div#main{background-color:#F400EC}
+body#p4079 article.adventurepage{background:#14FF23}
+body#p4079 header {background: #F400EC url(http://www.mspaintadventures.com/images/mspalogo_sbahj.jpg) top left no-repeat;}
+body#p4079 header #mspalogo img {display:none;}
+body#p4079 article.adventurepage{font-family:Comic Sans MS;}
+body#p4079 article.adventurepage footer{font-family:Comic Sans MS;}
+body#p4079 #main header nav{font-family:Comic Sans MS;}
+body#p4079 #adventureprofile {display:none;}
+
+/* Cascade */
+
+body#p4106 {background: #000000;} /* Color de más fondo */
+body#p4106 div#main{background-color:#000000} /* Color de fondo */
+body#p4106 article.adventurepage{background:#262626} /* Color principal */
+body#p4106 #adventureprofile {display:none;} /* Elimina el Show Adventure */
+body#p4106 h1#pagecommand {display:none;} /* Elimina el comando */
+body#p4106 header #mspalogo {display:none;}
+body#p4106 header #stopblocking {display:none;}
+body#p4106 tbody {display:none;}
+body#p4106 header {background: #262626 url(http://www.mspaintadventures.com/images/header_cascade.gif) top center no-repeat;}
+body#p4106 a.slidelink.p4107 {color: #0066FF;}
+
+body#p4812 div#main {background-color: #000000;}
+body#p4812 {background-color: #000000;}
+body#p4812 article.adventurepage {background-color:#000000;}
+body#p4812 #hussie img {display:none;}
+body#p4812 h1#pagecommand {display:none;}
+body#p4812 header {background: #0E4603 url(https://dl.dropboxusercontent.com/u/55886728/css%20scratch/v2_mspalogo_dota.gif) top left no-repeat;}
+body#p4812 header #mspalogo {margin-left: -999px;}
+body#p4812 #main header nav{display:none;}
+body#p4812 #main .myAd a {display:none;}
+body#p4812 tbody {display:none;} /* Con esto he podido borrar el anuncio de abajo que no se ve al usar Adblock */
+body#p4812 #main header img {display:none;}
+body#p4812 article.adventurepage footer #backlinks{display:none;}
+body#p4812 #adventureprofile {display:none;}
